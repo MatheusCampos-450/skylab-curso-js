@@ -1,11 +1,12 @@
 {
   "scripts": {
-    "yarn dev": "main.js"
-  },
-  "dependencies": {
-    "express": "^4.17.1"
+    "dev": "nodemon src/routes.js"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.2"
   }
 }

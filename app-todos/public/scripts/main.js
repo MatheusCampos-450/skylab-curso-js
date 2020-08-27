@@ -23,7 +23,8 @@ function renderTodos() {
     linkElement.appendChild(linkText);
 
     todoElement.appendChild(todoText);
-    listElement.appendChild(todoElemtent);
+    todoElement.appendChild(linkElement);
+    listElement.appendChild(todoElement);
   }
 }
 
